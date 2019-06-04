@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome to Refreshment Investment repository
 
-You can use the [editor on GitHub](https://github.com/umarata/RefreshmentInvestment/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is simple app use to check and save daily investments for refreshments.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### RoomDatabase
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I used Room Database to read/write data in SQLite Database in App.
 
 ```markdown
-Syntax highlighted code block
+Types of refreshment already included in app
 
-# Header 1
-## Header 2
-### Header 3
+# Biscuit
+# Glass
+# Milk
+# Namakpara
+# Other
+# Samosa 
+# Self
+# Sugar
+# Tea
+# Tea Leaves
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Report
 
-**Bold** and _Italic_ and `Code` text
+This app has two fragments, MainFragment and ReportFragment
+1. MainFragment use to enter investment detail and adding balance (give to office boy for ease so he does not ask daily for money to buy investment) and we can also look in report like how much we invested in month.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/umarata/RefreshmentInvestment/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+2. ReportFragment use to generate report as list of each transaction in cardview in recylerview by start date and end date.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For anytype of support and clarification please write me on email umarata.cse4@gmail.com.

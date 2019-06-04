@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RefreshmentInvestment</string>
+
+    <string-array name="spinner_array">
+        <item>Biscuit</item>
+        <item>Glass</item>
+        <item>Milk</item>
+        <item>Namakpara</item>
+        <item>Other</item>
+        <item>Samosa</item>
+        <item>Self</item>
+        <item>Sugar</item>
+        <item>Tea</item>
+        <item>Tea Leaves</item>
+    </string-array>
+</resources>

@@ -21,10 +21,10 @@ Types of refreshment already included in app
 # Tea Leaves
 
 
-### Report
+### Details of Fragments used in app
 
 This app has two fragments, MainFragment and ReportFragment
-1. MainFragment use to enter investment detail and adding balance (give to office boy for ease so he does not ask daily for money to buy investment) and we can also look in report like how much we invested in month.
+1. MainFragment use to enter investment detail and adding balance (give to office boy for ease so he does not ask daily for money to buy refreshments) and we can also look in report like how much we invested in month.
 
 2. ReportFragment use to generate report as list of each transaction in cardview in recylerview by start date and end date.
 

@@ -22,7 +22,6 @@ import android.widget.Toast;
 import com.tribyssapps.refreshmentinvestment.R;
 import com.tribyssapps.refreshmentinvestment.adapters.InvestmentReportRVAdapter;
 import com.tribyssapps.refreshmentinvestment.database.AppDatabase;
-import com.tribyssapps.refreshmentinvestment.database.BalanceSheet;
 import com.tribyssapps.refreshmentinvestment.database.InvestmentEntity;
 
 import java.text.SimpleDateFormat;

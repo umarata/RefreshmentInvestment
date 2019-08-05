@@ -1,22 +1,21 @@
 package com.tribyssapps.refreshmentinvestment.database;
 
-import java.util.Date;
-
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 import androidx.room.TypeConverters;
+
+import java.util.Date;
 
 @Entity(tableName = "investment")
 @TypeConverters({Converters.class})
 public class InvestmentEntity {
 
 
-
     @PrimaryKey(autoGenerate = true)
     int id;
 
-    @ColumnInfo(name="name")
+    @ColumnInfo(name = "name")
     String name;
 
     @ColumnInfo(name = "date")

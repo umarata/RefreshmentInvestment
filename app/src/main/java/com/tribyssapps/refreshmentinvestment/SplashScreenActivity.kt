@@ -1,10 +1,8 @@
 package com.tribyssapps.refreshmentinvestment
 
-import androidx.appcompat.app.AppCompatActivity
-
 import android.content.Intent
 import android.os.Bundle
-
+import androidx.appcompat.app.AppCompatActivity
 import com.tribyssapps.refreshmentinvestment.activities.MainActivity
 
 class SplashScreenActivity : AppCompatActivity() {

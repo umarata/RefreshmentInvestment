@@ -1,10 +1,8 @@
 package com.tribyssapps.refreshmentinvestment.activities
 
+import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-
-import android.os.Bundle
-
 import com.tribyssapps.refreshmentinvestment.R
 import com.tribyssapps.refreshmentinvestment.fragments.MainFragment
 

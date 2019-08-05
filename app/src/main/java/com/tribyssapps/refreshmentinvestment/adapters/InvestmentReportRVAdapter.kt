@@ -5,13 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-
+import androidx.recyclerview.widget.RecyclerView
 import com.tribyssapps.refreshmentinvestment.R
 import com.tribyssapps.refreshmentinvestment.database.InvestmentEntity
-
 import java.text.SimpleDateFormat
-import java.util.Locale
-import androidx.recyclerview.widget.RecyclerView
+import java.util.*
 
 class InvestmentReportRVAdapter(internal var context: Context, internal var investmentFromDateRange: List<InvestmentEntity>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

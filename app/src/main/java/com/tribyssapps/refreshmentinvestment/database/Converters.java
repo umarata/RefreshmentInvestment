@@ -1,8 +1,8 @@
 package com.tribyssapps.refreshmentinvestment.database;
 
-import java.util.Date;
-
 import androidx.room.TypeConverter;
+
+import java.util.Date;
 
 public class Converters {
     @TypeConverter
